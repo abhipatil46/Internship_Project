@@ -1,0 +1,244 @@
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#containor{
+    position:absolute;
+}
+.logo .logo-img{
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 5%;
+    top: 5%;
+}
+.navbar {
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+.menu ul{
+    /* border: 1px solid; */
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: 8%;
+    top: 5%;
+
+
+}
+.menu ul li{
+    margin: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 77, 148);
+    font-weight: bolder;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+.menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* Main body CSS */
+
+.main{
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 30vw;
+    background-image: url(/images/boys-286245.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+   /* border: 1px solid green; */
+}
+.main-info{
+    margin-right: 40px;
+}
+.main-info h1{
+    font-size: 4rem;
+    margin: 20px;
+    color: rgb(255, 77, 148);
+    font-family: 'Roboto', sans-serif;
+}
+.main-info h3{
+    font-size: 2rem;
+    margin: 20px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.main-info h3 span{
+    color: #9900cc;
+    text-decoration: underline;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.main-shop{
+    width: 100px;
+    height: 40px;
+    background-color: #6D6DE8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.first{
+    display: flex;
+    padding: 50px;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+.first img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.first-info{
+    margin: 40px;
+}
+.first-info h2{
+    width: 150px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 2px solid rgb(192, 192, 1);
+}
+.first-info p{
+    width: 600px;
+    font-size: 18px; 
+    word-spacing: 10px;
+}
+
+.second{
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+}
+.second-info{
+    margin: 40px;
+}
+.second-info h2{
+    /* border: 1px solid red; */
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    width: 350px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 2px solid rgb(192, 192, 1);
+    margin-bottom: 20px;
+}
+.second-info p{
+    width: 600px;
+    /* margin-top: 20px; */
+    font-size: 18px; 
+    word-spacing: 10px;
+}
+
+.second .card-para img{
+    /* margin-left: 30px; */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.second .card-para h3{
+    /* margin-left: 30px; */
+    margin-top: 30px;
+    text-align: center;
+}
+.card-para{
+    border-radius: 10px;
+    box-shadow:0px 0px 10px 2px  black;
+    padding: 10px;
+    height: 100vh;
+    text-align: center;
+}
+
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 168, 168);
+}
+ .extra img{
+    height: 250px;
+    width: 400px;
+ }
+ .extra p{
+    width: 400px;
+    margin: 30px;
+    font-weight: bolder;
+ }
+
+
+.shop-card{
+    margin: 30px;
+    /* border: 1px solid; */
+    padding: 30px;
+    /* display: flex; */
+}
+.shop-card h1{
+    border-right: 2px solid rgb(235, 102, 13);
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    display: inline-block;
+    padding-right: 20px;
+    margin: 20px;
+    transition: all 05s;
+}
+
+.collaps-ele{
+    margin-top: 20px;
+}
+
+.card-edit{
+    border-radius: 30px !important;
+    transition: all 0.5s !important;
+}
+.card-edit:hover{
+    background-color: rgb(245, 211, 248) !important;
+    /* border: 1px solid rgb(247, 177, 48) !important; */
+}
+.edit{
+    text-align: center;
+}
+.edit h5 span{
+    color: orange;
+}
+.edit h5{
+    color: rgb(86, 162, 192);
+    font-weight: bold;
+}
+.edit p{
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    background-color: #9393f3;
+    color: white;
+    padding: 20px;
+}
+
+.footer .contact{
+    text-align: center;
+}
+.footer .aves p{
+    width: 400px;
+    font-weight: bold;
+}
+
+.footer .aves h1{
+    font-weight: bold;
+}
